@@ -29,6 +29,14 @@ public class JavaHttpEgActivity extends ActionBarActivity {
     private HttpCallback callback = new HttpCallback() {
         @Override
         public void onSuccess (final ApiResponse response) {
+
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run () {
+                    cityName.setText("City name = " + response.getCity().getCityName());
+                }
+            });
+
             Log.d("koc", "success");
 
         }
