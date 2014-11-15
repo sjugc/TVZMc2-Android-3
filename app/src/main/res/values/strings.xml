@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Workshop2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_java_http_call_example">JavaHttpCallExample</string>
+    <string name="title_activity_list_item_eg">ListItemEgActivity</string>
+    <string name="title_activity_retrofit_example">RetrofitExampleActivity</string>
+    <string name="title_activity_retrofit_and_list_view">RetrofitAndListViewActivity</string>
+    <string name="title_activity_java_http_eg">JavaHttpEgActivity</string>
+
+</resources>
